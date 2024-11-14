@@ -1,0 +1,104 @@
+
+/* body {
+  background-image: url("vecteezy_small-hexagon-shape-with-light-white-and-grey-color-seamless_6941002.jpg");
+  background-size: cover;
+  } */
+
+  /* .stApp {
+    background-image: url("vecteezy_small-hexagon-shape-with-light-white-and-grey-color-seamless_6941002.jpg");
+    background-size: cover;
+    background-position: center;
+} */
+
+
+/* Example for a div element */
+div.css-1xvllcu.e1f1d6gn0 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px; /* ทำให้ขอบมน */
+    width:fit-content;
+
+  }
+
+  /* div.st-emotion-cache-1v0mbdj.e115fcil1 {
+    border-radius: 15px;
+    padding: 5% 5% 5% 5%;
+    background-color: transparent;
+    box-shadow: none;
+  } */
+
+/* สไตล์สำหรับการเขียนทับ class="stVideo" */
+.stVideo {
+    width: 600px; /* กำหนดความกว้างใหม่ */
+    height: auto; /* ให้ปรับความสูงอัตโนมัติตามอัตราส่วน */
+    border-radius: 15px; /* เพิ่มขอบมนให้กับวิดีโอ */
+    box-shadow: 5px 5px 20px rgba(16, 1, 1, 0.3); /* เพิ่มเงารอบ ๆ วิดีโอ */
+    background-color: #494747;
+    padding: 20px;
+  }
+
+  div.css-11kb53j.e1f1d6gn0 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px; /* ทำให้ขอบมน */
+    width:fit-content;
+  }
+
+  div.block-container.css-z5fcl4.ea3mdgi4{
+    padding-left: 2rem;
+
+  }
+
+  /* Wordcloud */
+  [data-testid="stImageContainer"] {
+    /* box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; */
+    box-shadow: 5px 5px 20px rgba(16, 1, 1, 0.3); /* เพิ่มเงารอบ ๆ วิดีโอ */
+    border-radius: 15px;
+    padding: 5% 5% 5% 5%;
+    /* border: 1px solid black; Added black border */
+    background-color: #fafafa;
+}
+
+/* Summary */
+
+p {
+  /* margin-bottom: 20px; */
+  /* line-height: 1.8; Adjust the spacing between lines */
+  font-size: 16px;  /* Adjust font size */
+  /*font-weight: bold;*/
+  text-align: justify; /* Justify text for a clean look */
+}
+
+.custom-id {
+  /* box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; */
+  box-shadow: 5px 5px 20px rgba(16, 1, 1, 0.3); /* เพิ่มเงารอบ ๆ วิดีโอ */
+  border-radius: 15px;
+  padding: 5% 5% 5% 5%;
+  /* border: 1px solid black; Added black border */
+  background-color: #fafafa;
+}
+
+/* questions */
+.question-box {
+  background-color: #f0f0f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+
+.quiz-heading  {
+  font-size: 32px; /* ขนาดตัวอักษรใหญ่ */
+  font-weight: bold;
+  border-radius: 10px; /* ขอบมน */
+  text-transform: uppercase; /* ตัวพิมพ์ใหญ่ทั้งหมด */
+  color: #003399; /* สีน้ำเงินเข้มสำหรับส่วนของตัวอักษร */
+  background-color: #ffffff; /* พื้นหลังสีขาวสำหรับตัวอักษร "Q" */
+  /* padding: 0px 10px; เพิ่มช่องว่างรอบตัวอักษร */
+  border-radius: 5px; /* ทำขอบมนให้เฉพาะตัวอักษร "Q" */
+}
+
+
+
+

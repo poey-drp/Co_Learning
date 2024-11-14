@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  co_learning_1:
+    container_name: co_learning_1
+    image: poeyza/co_learning
+    ports:
+      - "5003:8501"
+    volumes:
+      - .:/app
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail http://localhost:8501/_stcore/health || exit 1"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+    restart: always
+
+  co_learning_2:
+    container_name: co_learning_2
+    image: poeyza/co_learning
+    ports:
+      - "5004:8501"
+    volumes:
+      - .:/app
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail http://localhost:8501/_stcore/health || exit 1"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+    restart: always
+
+  co_learning_3:
+    container_name: co_learning_3
+    image: poeyza/co_learning
+    ports:
+      - "5005:8501"
+    volumes:
+      - .:/app
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail http://localhost:8501/_stcore/health || exit 1"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+    restart: always

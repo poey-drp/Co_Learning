@@ -1,0 +1,14 @@
+{
+    "Prof. Yasushi Kiyoki": [
+        {"key": "vdo02", "value": "E-Superai"}
+    ],
+    "Prof. Virach Sornlertlamvanich": [	
+        {"key": "vdo11", "value": "J-ISR-CH7-CH8-Acoustic_Phonetics-Automatic_Speech_Recognition"},
+        {"key": "vdo10", "value": "J-ISR-CH5-CH6-Fundamental_of_Automatic_Speech_Recognition"},
+        {"key": "vdo09", "value": "J-ISR-CH4_Convolutional_Neural_Network"},
+	    {"key": "vdo08", "value": "J-ISR-CH3_Principal_Component_Analysis_Calculation"}
+    ],
+    "Assoc. Prof. Yasuhiro Hayashi": [
+        {"key": "vdo03", "value": "J-Proj_Hayashi_Database_Design"}
+    ]
+}
